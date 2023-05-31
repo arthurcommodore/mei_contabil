@@ -1,0 +1,66 @@
+/* SIDEBAR */
+.sidebar {
+    background: #131E40;
+    min-height: 100vh;
+    position: relative;
+    width: 15rem;
+}
+
+
+.sidebar-item {
+    padding: .7em 1em;
+    display: block;
+    transition: background-color .15s;
+    border-radius: 5px;
+    color: white ;
+    font-weight: 600;
+    font-family: "HelveticaNeueMedium";
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    background-color: rgba(224, 219, 219, 0.075) !important;
+    color: white !important;
+}
+
+.sidebar-item a {
+    color: white !important;
+}
+
+i.iconFile {
+    margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 0.7rem;
+    margin-top: 9px;
+}
+
+.sidebar-title {
+    display: flex;
+    font-size: 1.2em;
+}
+
+span.sidebar-item-title {
+    color: white
+}
+
+
+.sidebar-content {
+    padding-top: .25em;
+    height: 0;
+    overflow: hidden;
+}
+
+.sidebar-item.open > .sidebar-content {
+    height: auto;
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .sidebar {
+        width: 18rem;
+    }
+
+    .sidebar-item {
+        font-size: 0.75rem;
+    }
+}

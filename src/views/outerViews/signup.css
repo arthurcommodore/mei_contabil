@@ -1,0 +1,30 @@
+div.signup {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #a9d2f3, #a9d2f3, #3dc9609c);
+}
+
+div.signup-image {
+    background-color: rgba(49, 160, 194, 0.911);
+}
+
+div.signup div.container {
+}
+
+div.signup-formContainer {
+    display: flex;
+    background-color: #ffffff;
+    width: 60%;    
+}
+
+div.signup-formContaine-header h1 {
+    font-weight: 600;
+    color: #383838;
+}
+
+div.signup-image img {
+    width: 50%;
+    margin-top: 40px;
+}
